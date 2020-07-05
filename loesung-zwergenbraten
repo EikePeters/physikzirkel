@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Physikzirkel</title>
+<link href="mainstyle.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="pagehead">
+    <h1>Lösung Zwergenbraten</h1>
+</div>
+
+<div class="menu">
+    <li><button onclick="location.href='index.html'" type="button">Start</button></li>
+    <li><button onclick="location.href='konzept.html'" type="button">Konzept</li>
+    <li><button onclick="location.href='themen.html'" type="button">Themen</button></li>
+    <li><button onclick="location.href='aufgaben.html'" type="button">Aufgaben</button></li>
+    <li><button onclick="location.href='loesungen.html'" type="button">Lösungen</button></li>
+</div>
+
+<div class="page">
+<p>Die effektive Leistung P des Feuerstrahls, also die Leistung mit der der Zwerg tatsächlich erwärmt wird, beträgt 2000kJ/s*0,2=400kJ/s.<br><br>
+Die Wärmeenergie, die benötigt wird um den Zwerg von 36K auf 350K zu erwärmen beträgt Q=m*c*dT=60kg*3,6kJ/(kg*K)*314K=67824kJ.<br><br>
+Es gilt für die Arbeit W=P*t => Q=P*t => t=Q/P=67824kJ/400kJ/s=169,56s.
+</p>
+<h1>Der Zwerg hat hat nach 169,56s eine Temperatur von 350°C erreicht.</h1>
+</div>
+</body>
+</html>
